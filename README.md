@@ -63,23 +63,43 @@ Detailed quantitative results are provided in the project report.
 
 ## 📁 Project Structure
 ├── data/
+
 │ ├── train(1).xlsx
+
 │ ├── test2.xlsx
+
 │ ├── cleaned/
-│     ├── train_clean.xlsx
-│     ├── test_clean.xlsx
-│     └── image_embeddings.npy
+
+│ │ ├── train_clean.xlsx
+
+│ │ ├── test_clean.xlsx
+
+│ │ └── image_embeddings.npy
+
 │ ├── sattelite_images_test/
+
 │ └── satellite_images/
+
 │
+
 ├── eda.ipynb
+
 ├── feature_engineering.ipynb
+
 ├── multimodal_training.ipynb
+
 │
+
 ├── models/
+
 │ ├── cnn_feature_extractor.pkl
+
 │ └── lightgbm_model.pkl
+
 │
+
 ├── 23112054_final.csv # Prediction file (submission)
+
 ├── 23112054_report.pdf # Final project report (PDF)
+
 └── README.md
